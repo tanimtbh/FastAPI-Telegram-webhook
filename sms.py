@@ -19,7 +19,7 @@ def send_sms(to, name):
     client = Client(account_sid, auth_token)
  
     message = client.messages.create(  
-                              messaging_service_sid='MG1d1b8ea59257da55f94d17c8c53fa34e', 
+                              messaging_service_sid='MG1d1bf94d17c8c53fa34e', 
                               body="❤️"+name.upper() +"! its A Cleaning Reminder. Today is "+str(date.today())+", Thank you for your cooporation 🙏 ☆☆☆",      
                               to=to 
                           ) 
